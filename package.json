@@ -1,0 +1,27 @@
+{
+  "name": "quadthingy-dashboard",
+  "version": "1.0.0",
+  "description": "Node.js dashboard application for Quadthingy system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelchang/quadthingy-dashboard.git"
+  },
+  "author": "Raphael Chang",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/raphaelchang/quadthingy-dashboard/issues"
+  },
+  "homepage": "https://github.com/raphaelchang/quadthingy-dashboard#readme",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.1",
+    "float-bits": "^1.0.0",
+    "serialport": "git+https://github.com/raphaelchang/node-serialport.git",
+    "socket.io": "^1.7.2"
+  }
+}

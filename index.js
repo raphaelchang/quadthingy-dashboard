@@ -34,7 +34,7 @@ app.get('/', function(req, res, next) {
 // Client-side rendering
 app.use('/client.js', function(req, res) {
     res.setHeader('content-type', 'application/javascript');
-    browserify('./app/index.js', {
+    browserify('./app/index.jsx', {
         debug: true
     })
     .transform([babelify.configure({
